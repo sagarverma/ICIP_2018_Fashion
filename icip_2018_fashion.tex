@@ -41,7 +41,7 @@
 
 \section{Recommendation based on contextual similarity}
 
-\begin{frame}
+\begin{frame}{Problem Statement}
 \begin{center}
 {\Large Recommendation based on contextual similarity}\\
 \vspace{.5cm}
@@ -49,32 +49,26 @@
 \end{center}
 \end{frame}
 
-\begin{frame}{Problem Statement}
-\begin{itemize}
-\item Developing recommendation system for fashion images is
-challenging due to the inherent ambiguity associated with
-what criterion a user is looking at.
-\item Suggesting multiple
-images where each output image is similar to the query image
-on the basis of a different feature or part is one way
-to mitigate the problem.
-\end{itemize}
-\end{frame}
 
 \begin{frame}{Contributions}
   \begin{enumerate}
-    \item Given the ambiguous nature of user intent, we propose a new recommendation system to produce diverse recommendations on the basis of similarity of different parts in the query image.
+    \item Our method recommends similar images based on different parts of query image.
 
-    \item To generate semantically meaningful parts in the fashion image, we propose to use attention based deep neural network which learns to attend to different parts using the weakly labeled data available in the benchmark dataset.
+    \item To identify different parts we use attention and weakly labeled data.
 
-    \item Instead of features from standard pre-trained neural networks, we suggest using texture-based features which, as we show in our experiments, are better suited for finding clothing similarity.
+    \item Instead of features from standard pre-trained neural networks, we suggest using texture-based features.
 
-    \item Apart from diversity in fashion recommendation, our experiments and evaluations on multiple datasets demonstrate the superiority of the proposed model in attribute classification and cross-scene image retrieval tasks.
+    \item We evaluate our method on item recognition task, consumer-to-shop retrieval and in-shop retrieval tasks.
   \end{enumerate}
 \end{frame}
 
 \begin{frame}{Related Work}
-
+  \begin{itemize}
+    \item Cloth parsing,
+    \item Clothing attribute recognition,
+    \item Detecting fashion style, and
+    \item Cross-domain image retrieval using Siamese network and Triplet network.
+  \end{itemize}
 \end{frame}
 
 \begin{frame}{Proposed Architecture}
@@ -105,7 +99,7 @@ to mitigate the problem.
   \end{center}
 \end{frame}
 
-\begin{frame}{Loss}{Multi-label classification loss}
+\begin{frame}{Multi-label classification loss}
       \begin{equation}
         \mathcal{L}_{cls} = \frac{1}{N} \sum^N_{i=1}\sum^C_{c=1}(p^c_i-\hat{p}^c_i)^2
       \end{equation}
@@ -121,7 +115,7 @@ to mitigate the problem.
 \end{frame}
 
 \begin{frame}{Localisation loss}
-  Localisation loss, $\mathcal{L}_{loc}$ from \cite{} is used to remove redundant locations and force localization network to look at small clothing parts.
+  Localisation loss, $\mathcal{L}_{loc}$ from \cite{WangSTLSTMICCV2017} is used to remove redundant locations and force localization network to look at small clothing parts.
 \end{frame}
 
 \begin{frame}{Combined Loss}
@@ -133,19 +127,19 @@ to mitigate the problem.
 
 \begin{frame}{Datasets}
   \begin{itemize}
-    \item \textbf{Fashion144K}
+    \item \textbf{Fashion144K \cite{SimoSerraCVPR2016}}
     \begin{itemize}
       \item 90,000 images with multilabel annotation.
       \item 128 classes.
       \item Image resolution is $384x256$.
     \end{itemize}
 
-    \item \textbf{Fashion550K}
+    \item \textbf{Fashion550K \cite{InoueICCVW2017}}
       \begin{itemize}
         \item 66 classes.
       \end{itemize}
 
-    \item \textbf{DeepFashion}
+    \item \textbf{DeepFashion \cite{LiuCVPR2016}}
       \begin{itemize}
         \item 800,000 images
         \item Similarity pairs is available for consumer-to-shop and in-shop retrieval tasks
@@ -155,9 +149,9 @@ to mitigate the problem.
 
 \begin{frame}{Experiments}
   \begin{itemize}
-    \item Model is trained on Fashion144K dataset with 59 item labels, color labels were excluded.
-    \item Evaluated item recognition task on Fashion144K and Fashion550K dataset.
-    \item Consumer-to-shop and in-shop retrieval tasks are evaluated on DeepFashion dataset.
+    \item Model is trained on Fashion144K \cite{SimoSerraCVPR2016} dataset with 59 item labels, color labels were excluded.
+    \item Evaluated item recognition task on Fashion144K \cite{SimoSerraCVPR2016} and Fashion550K \cite{InoueICCVW2017} dataset.
+    \item Consumer-to-shop and in-shop retrieval tasks are evaluated on DeepFashion \cite{LiuCVPR2016} dataset.
   \end{itemize}
 \end{frame}
 
@@ -205,9 +199,9 @@ Semantically similar results for some of the query images from Fashion144k datas
 
 \begin{frame}{Conclusion}
   \begin{itemize}
-    \item Using clothing items for recommendation gives much variability in the recommendation results.
+    \item Using clothing parts for recommendation gives much variability in the recommendation results.
     \item Attention can be used to learn discriminative features from weak labels.
-    \item Texture cues are good for learning different parts.
+    \item Texture cues are important for learning different parts.
   \end{itemize}
 \end{frame}
 

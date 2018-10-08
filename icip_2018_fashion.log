@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.22)  8 OCT 2018 09:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.22)  8 OCT 2018 10:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1013,47 +1013,47 @@ Package pdftex.def Info: images/teaser_staqu_texture.pdf used on input line 50.
 
 ] [4
 
-] [5
-
-] <images/staqu_st_ten_arch.pdf, id=79, 542.025pt x 469.755pt>
+] <images/staqu_st_ten_arch.pdf, id=74, 542.025pt x 469.755pt>
 File: images/staqu_st_ten_arch.pdf Graphic file (type pdf)
 
 <use images/staqu_st_ten_arch.pdf>
-Package pdftex.def Info: images/staqu_st_ten_arch.pdf used on input line 85.
+Package pdftex.def Info: images/staqu_st_ten_arch.pdf used on input line 79.
 (pdftex.def)             Requested size: 245.83604pt x 199.16656pt.
- [6
+ [5
 
  <./images/staqu_st_ten_arch.pdf>]
-<images/staqu_st_ten_arch_cnn.pdf, id=98, 542.025pt x 469.755pt>
+<images/staqu_st_ten_arch_cnn.pdf, id=93, 542.025pt x 469.755pt>
 File: images/staqu_st_ten_arch_cnn.pdf Graphic file (type pdf)
 
 <use images/staqu_st_ten_arch_cnn.pdf>
-Package pdftex.def Info: images/staqu_st_ten_arch_cnn.pdf used on input line 92
+Package pdftex.def Info: images/staqu_st_ten_arch_cnn.pdf used on input line 86
 .
 (pdftex.def)             Requested size: 245.83604pt x 199.16656pt.
- [7
+ [6
 
  <./images/staqu_st_ten_arch_cnn.pdf>] <images/staqu_st_ten_arch_attn.pdf, id=1
-21, 542.025pt x 469.755pt>
+15, 542.025pt x 469.755pt>
 File: images/staqu_st_ten_arch_attn.pdf Graphic file (type pdf)
 
 <use images/staqu_st_ten_arch_attn.pdf>
 Package pdftex.def Info: images/staqu_st_ten_arch_attn.pdf used on input line 9
-9.
+3.
 (pdftex.def)             Requested size: 245.83604pt x 199.16656pt.
- [8
+ [7
 
  <./images/staqu_st_ten_arch_attn.pdf>] <images/staqu_st_ten_arch_text.pdf, id=
-143, 542.025pt x 469.755pt>
+138, 542.025pt x 469.755pt>
 File: images/staqu_st_ten_arch_text.pdf Graphic file (type pdf)
 
 <use images/staqu_st_ten_arch_text.pdf>
 Package pdftex.def Info: images/staqu_st_ten_arch_text.pdf used on input line 1
-06.
+00.
 (pdftex.def)             Requested size: 245.83604pt x 199.16656pt.
- [9
+ [8
 
- <./images/staqu_st_ten_arch_text.pdf>] [10
+ <./images/staqu_st_ten_arch_text.pdf>] [9
+
+] [10
 
 ] [11
 
@@ -1065,42 +1065,40 @@ Package pdftex.def Info: images/staqu_st_ten_arch_text.pdf used on input line 1
 
 ] [15
 
-] [16
-
 ]
-<images/Inshop.pdf, id=224, 539.63165pt x 423.89145pt>
+<images/Inshop.pdf, id=228, 539.63165pt x 423.89145pt>
 File: images/Inshop.pdf Graphic file (type pdf)
  <use images/Inshop.pdf>
-Package pdftex.def Info: images/Inshop.pdf used on input line 193.
+Package pdftex.def Info: images/Inshop.pdf used on input line 187.
 (pdftex.def)             Requested size: 147.49782pt x 115.86224pt.
 
-<images/Consumer2shop.pdf, id=225, 555.34662pt x 423.89145pt>
+<images/Consumer2shop.pdf, id=229, 555.34662pt x 423.89145pt>
 File: images/Consumer2shop.pdf Graphic file (type pdf)
 
 <use images/Consumer2shop.pdf>
-Package pdftex.def Info: images/Consumer2shop.pdf used on input line 193.
+Package pdftex.def Info: images/Consumer2shop.pdf used on input line 187.
 (pdftex.def)             Requested size: 147.49782pt x 112.58295pt.
- [17
+ [16
 
  <./images/Inshop.pdf> <./images/Consumer2shop.pdf
 
 pdfTeX warning: pdflatex (file ./images/Consumer2shop.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
->] <images/staqu_results.pdf, id=336, 1120.185pt x 700.6175pt>
+>] <images/staqu_results.pdf, id=340, 1120.185pt x 700.6175pt>
 File: images/staqu_results.pdf Graphic file (type pdf)
 
 <use images/staqu_results.pdf>
-Package pdftex.def Info: images/staqu_results.pdf used on input line 204.
+Package pdftex.def Info: images/staqu_results.pdf used on input line 198.
 (pdftex.def)             Requested size: 245.83282pt x 153.75146pt.
- [18
+ [17
 
- <./images/staqu_results.pdf>] [19
+ <./images/staqu_results.pdf>] [18
 
 ]
-(./icip_2018_fashion.bbl) [20
+(./icip_2018_fashion.bbl) [19
 
  </usr/local/texlive/2017/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf
->] [21
+>] [20
 
 ]
 \tf@nav=\write6
@@ -1112,11 +1110,11 @@ Package pdftex.def Info: images/staqu_results.pdf used on input line 204.
 \tf@snm=\write8
 \openout8 = `icip_2018_fashion.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
  (./icip_2018_fashion.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 224.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
 Package rerunfilecheck Info: File `icip_2018_fashion.out' has not changed.
 (rerunfilecheck)             Checksum: 75C68CC540D11F5D50DF69ED6E48821B;80.
 
@@ -1126,10 +1124,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 21309 strings out of 492995
- 419677 string characters out of 6132703
- 485521 words of memory out of 5000000
- 24333 multiletter control sequences out of 15000+600000
+ 21300 strings out of 492995
+ 419503 string characters out of 6132703
+ 485556 words of memory out of 5000000
+ 24325 multiletter control sequences out of 15000+600000
  15497 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,11n,59p,783b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1148,10 +1146,10 @@ al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
 texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/lo
 cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on icip_2018_fashion.pdf (21 pages, 2156390 bytes).
+Output written on icip_2018_fashion.pdf (20 pages, 2156284 bytes).
 PDF statistics:
- 513 PDF objects out of 1000 (max. 8388607)
- 268 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
+ 517 PDF objects out of 1000 (max. 8388607)
+ 273 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
  95 words of extra memory for PDF output out of 10000 (max. 10000000)
 

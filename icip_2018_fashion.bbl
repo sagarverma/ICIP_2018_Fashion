@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{WangSTLSTMICCV2017}
+Zhouxia Wang, Tianshui Chen, Guanbin Li, Ruijia Xu, and Liang Lin,
+\newblock ``Multi-label image recognition by recurrently discovering
+  attentional regions,''
+\newblock in {\em ICCV}, 2017.
+
 \bibitem{SimoSerraCVPR2016}
 E.~Simo-Serra and H.~Ishikawa,
 \newblock ``Fashion style in 128 floats: Joint ranking and classification using
@@ -12,16 +18,16 @@ Naoto Inoue, Edgar Simo-Serra, Toshihiko Yamasaki, and Hiroshi Ishikawa,
   supervision,''
 \newblock in {\em ICCVW}, 2017, pp. 2261--2267.
 
-\bibitem{veit2017learning}
-Andreas Veit et~al.,
-\newblock ``Learning from noisy large-scale datasets with minimal
-  supervision,''
-\newblock in {\em CVPR}, 2017.
-
 \bibitem{LiuCVPR2016}
 Z.~Liu, P.~Luo, S.~Qiu, X.~Wang, and X.~Tang,
 \newblock ``Deepfashion: Powering robust clothes recognition and retrieval with
   rich annotations,''
 \newblock in {\em CVPR}, 2016, pp. 1096--1104.
+
+\bibitem{veit2017learning}
+Andreas Veit et~al.,
+\newblock ``Learning from noisy large-scale datasets with minimal
+  supervision,''
+\newblock in {\em CVPR}, 2017.
 
 \end{thebibliography}
